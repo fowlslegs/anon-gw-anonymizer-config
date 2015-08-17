@@ -190,6 +190,8 @@ DnsPort 10.152.152.10:53 IsolateDestPort
 ## SOCKS_PORT_KDE="9122"
 ## SOCKS_PORT_GNOME="9123"
 ## SOCKS_PORT_APTITUDE="9124"
+## SOCKS_PORT_XMPP="9125"
+## SOCKS_PORT_POND="9126"
 ## SOCKS_PORT_TBB_DEFAULT="9150"
 
 ## Tor Default Port
@@ -350,6 +352,11 @@ SocksPort 10.152.152.10:9123
 ## in security.
 SocksPort 10.152.152.10:9124
 
+## Pond chat
+Socksport 10.152.152.10:9125 IsolateDestAddr IsolateDestPort
+
+## XMPP
+Socksport 10.152.152.10:9125
 ## Tor Browser Bundle Default Port
 ## This port gets used if someone uses the default Tor Browser Bundle.
 ## (rinetd runs on Workstation and forwards connections from
